@@ -11,7 +11,7 @@ spec:
     path: ui_approach/nginx
   destination:
     server: https://kubernetes.default.svc   # Replace with your Cluster Url, To get run: `argocd cluster list`
-    namespace: default
+    namespace: frontend
   syncPolicy:
     automated:
       prune: true
